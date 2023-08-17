@@ -1,7 +1,6 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/vue3';
-import Clock from '@/Components/Clock.vue';
 
 </script>
 
@@ -13,7 +12,6 @@ import Clock from '@/Components/Clock.vue';
         <Button label="Check" icon="pi pi-check" />
     </div>
 
-        <Clock />
         <template #header>
             <h2 class="font-semibold text-xl text-gray-800 leading-tight">Dashboard</h2>
         </template>
